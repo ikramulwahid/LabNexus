@@ -15,7 +15,10 @@
 - No Phase 0 checkpoint is ACCEPTED.
 
 ### Current active work
-P0-TASK-005 — security baseline consolidation — complete.
+P0-TASK-007 — controlled domain-model baseline — complete.
+
+### Domain-model position
+PCD-03, PCD-05, PCD-13 and PCD-14 are now consolidated into `project/domain-model.md`. PCD-03 and PCD-13 retain their documented sign-off dependencies; PCD-05 and PCD-14 remain confirmed decisions.
 
 ### Authoritative position
 Use the root source documents for historical/source detail and `project/decision-register.md` for the living decision index. Do not revive superseded answers silently.

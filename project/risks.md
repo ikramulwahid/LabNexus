@@ -10,3 +10,5 @@
 | R-006 | Security baseline consolidation was incomplete | Consolidated into `project/security.md`; implementation/verification remain separately governed | CLOSED for Phase 0 documentation scope |
 | R-007 | Historical migration cannot fabricate approval chains | Perform controlled migration assessment; record No Migration Required where appropriate | OPEN |
 | R-008 | Privileged-role password-length option remains undecided | Current controlled default remains 8; obtain Project Owner decision before changing it | OPEN |
+| R-009 | Detailed TestInstance state-transition guards are not yet fully specified | Complete the approved Phase 1–2 transition matrix without inventing laboratory rules | OPEN |
+| R-010 | Result/report historical reconstruction could be weakened by implementation shortcuts | Preserve direct ResultRevision and ReportResultSnapshot linkage; verify end-to-end reconstruction | OPEN |

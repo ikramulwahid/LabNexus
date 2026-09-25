@@ -25,3 +25,6 @@ Recorded the R5 Windows telemetry evidence, completed the P0-TASK-004 technical 
 
 ### CHG-008 — Consolidate controlled security baseline
 Merged SB-AMEND-001 and PCD-01/15/19/20/21 security controls with the governing Master Prompt security boundary into `project/security.md`. Historical sources remain unchanged; security open items remain explicitly recorded.
+
+### CHG-009 — Establish controlled domain-model baseline
+Consolidated PCD-03/05/13/14 into `project/domain-model.md`, preserved historical supersessions, recorded remaining authority/laboratory inputs, reconciled security consistency, and corrected the stale P0-TASK-005 next-task reference.

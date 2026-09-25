@@ -2,10 +2,10 @@
 
 | Ref | Open item | Required authority/input | Effect |
 |---|---|---|---|
-| PCD-03 | SoD Matrix v1 formal sign-off | Quality Authority + Project Owner; Technical review | Affected controlled workflows remain non-deployable until accepted |
+| PCD-03 | Detailed SoD Matrix v1 formal sign-off | Quality Authority + Project Owner; Technical review | Affected controlled workflows remain non-deployable until accepted |
 | PCD-06 | Execution-start accreditation rule sign-off | Quality Authority + Technical concurrence | Affected accreditation behavior remains non-deployable until accepted |
 | PCD-08 | Retention start/archive rule sign-off | Quality Authority + Project Owner | Retention-controlled behavior remains non-deployable until accepted |
-| PCD-13 | Rework/retest boundary sign-off | Technical Authority | Affected execution states remain blocked from uncontrolled activation |
+| PCD-13 | Rework/retest/correction boundary and state-transition sign-off | Technical Authority | Affected execution states remain blocked from uncontrolled activation |
 | PCD-17 | Competence model sign-off | Technical Authority | Competence-controlled actions remain dependent on acceptance |
 | PCD-23 | Named Role-Holder Matrix | Project Owner + Quality Authority | Staffing/approval feasibility not yet confirmed |
 | PCD-01 option | Privileged roles 12-character minimum: yes/no | Project Owner | Current controlled default remains 8 |
@@ -16,3 +16,6 @@
 
 ## Security baseline note
 PCD-01 privileged-role password length remains the principal security-specific open decision. PCD-03 and PCD-23 remain authorization/staffing acceptance dependencies.
+
+## Domain-model note
+PCD-05 and PCD-14 are confirmed controlled decisions. PCD-03 and PCD-13 remain subject to their stated authority sign-offs; the detailed PCD-13 transition matrix is a later Phase 1–2 deliverable.

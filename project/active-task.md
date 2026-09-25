@@ -1,22 +1,25 @@
 # Active Task
 
 ## Task ID
-P0-TASK-005
+P0-TASK-007
 
 ## Title
-Consolidate SB-AMEND-001 into the Controlled Project Security Baseline
+Establish the Controlled Domain-Model Baseline for PCD-03, PCD-05, PCD-13 and PCD-14
 
 ## Status
 **COMPLETE**
 
 ## Authorization
-Explicit project instruction dated 25 September 2026 authorizing P0-TASK-005 after P0-TASK-004 technical evidence closure.
+Explicit project instruction dated 25 September 2026 authorizing P0-TASK-007.
 
 ## Completion evidence
-`project/security.md` now consolidates Main Prompt security controls with PCD-01, PCD-15, PCD-19, PCD-20, PCD-21 and SB-AMEND-001. Historical source documents remain preserved. Security open items and implementation/verification boundaries are recorded.
+`project/domain-model.md` now contains the controlled domain-model baseline for PCD-03, PCD-05, PCD-13 and PCD-14. Historical source documents and supersession relationships remain preserved. Remaining authority/laboratory inputs and non-authorizations are explicit.
 
 ## Completion state
-**COMPLETE.** No application, database, schema, API, UI, migration or feature implementation was introduced.
+**COMPLETE.** No application, database, schema, API, UI, migration, calculation or feature implementation was introduced.
+
+## Control reconciliation
+The stale P0-TASK-005 next-task reference was corrected from P0-TASK-006 to P0-TASK-007.
 
 ## Next proposed task
-P0-TASK-006 — Define the Phase 1 security/requirements evidence work package, or another explicitly authorized Phase 0 control task.
+P0-TASK-008 — Conduct the Phase 0 control-consistency review and prepare the P0 checkpoint dossier, or another explicitly authorized Phase 0 control task.

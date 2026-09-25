@@ -33,3 +33,6 @@ Consolidate the governing security requirements and approved PCD security decisi
 
 ## Result
 **Definition/consolidation complete.** The controlled security baseline is ready for its later implementation, test, verification and checkpoint stages.
+
+## Next proposed task
+P0-TASK-007 — Establish the controlled domain-model baseline for PCD-03, PCD-05, PCD-13 and PCD-14.
