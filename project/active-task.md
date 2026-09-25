@@ -1,49 +1,42 @@
-﻿# Active Task
+# Active Task
 
 ## Task ID
-P0-TASK-001
+P0-TASK-002
 
 ## Title
-Establish Phase 0 Project-Control Baseline
+Define the PCD-11 Performance-Spike Work Package
 
 ## Status
 **COMPLETE**
 
 ## Authorization
-Explicit project instruction dated 24 September 2026 authorizing Phase 0 project baselining only.
+Explicit project instruction dated 25 September 2026 authorizing the next separately authorized Phase 0 task identified in `project/handoff.md`: define the PCD-11 performance-spike Work Package. Execution of the performance spike is **not** authorized by this task.
 
 ## Objective
-Convert the established LabNexus source/history documents into a small, persistent project-control layer that allows a new AI agent to continue the project without relying on conversation history.
+Define a controlled, evidence-oriented performance-spike Work Package that can empirically verify the v1 workload premise for SQLite under the approved Windows single-host deployment constraints.
 
 ## In scope
-- Establish canonical `project/` structure.
-- Preserve the three original source files.
-- Create concise current-state, continuity, decision-index, open-item, change, risk, traceability and checkpoint records.
-- Record the relationship between original PQ answers, PCD supersessions and current authority.
-- Record current Phase 0 status and known outstanding decisions/inputs.
-- Record this task as the active task.
+- Define workload assumptions derived from PCD-11 and the approved deployment baseline.
+- Define workload profiles, concurrency levels, measurements, evidence requirements and acceptance process.
+- Define the required environment record and synthetic test-data approach.
+- Define decision outcomes and escalation rules if the empirical result does not support the baseline assumption.
+- Record this Work Package and Task in the repository control layer.
 
 ## Out of scope
-- Application code.
-- Database schema or migrations.
-- API implementation.
-- UI implementation.
-- Feature development.
-- Production configuration.
-- Test implementation beyond documentation/state verification needed for this baseline.
+- Running the performance spike.
+- Implementing a benchmark harness.
+- Implementing application, database schema, API, UI, migration or feature code.
+- Changing the approved SQLite architecture.
+- Setting production performance SLAs without the appropriate technical/operational evidence.
+- Using production laboratory data.
 
-## Completion conditions
-1. Canonical control files exist under `project/`.
-2. Original source/history files are preserved.
-3. Current state is explicitly Phase 0 — IN PROGRESS.
-4. Outstanding approvals/inputs/deferred decisions are recorded without inventing answers.
-5. Traceability/supersession relationship is documented.
-6. No application implementation is introduced.
-7. Checkpoint tracking exists and shows no accepted Phase 0 checkpoint.
-8. Handoff allows a new AI agent to continue without conversation history.
+## Deliverables
+1. `project/work/P0-WP-001-performance-spike.md`
+2. `project/work/P0-TASK-002.md`
+3. Updated project state, handoff, decision index, changes and risk records.
 
-## Evidence
-Repository inspection, creation of the 20-file control layer, local commit `5a25763dd8ffc1bbc7bf125134ef1cdc5da217d1`, successful push to `origin/main`, and post-push GitHub inspection of the committed control files.
+## Completion evidence
+The Work Package definition and related control-document updates are prepared for repository commit and inspection. Completion of this task does not authorize execution of the spike.
 
 ## Completion state
-**COMPLETE.** P0-TASK-001 establishes the Phase 0 project-control baseline. This does not close Phase 0 and does not accept the Phase 0 checkpoint. Further work requires a separately authorized Phase 0 task.
+**COMPLETE.** The PCD-11 performance-spike Work Package has been defined. The spike itself remains a separate future authorized execution task.

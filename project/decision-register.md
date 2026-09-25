@@ -31,7 +31,7 @@ Historical source documents are preserved. A supersession changes current author
 | PCD-08 | Minimum 10-year retention; later of last ReportRevision issue and closure, with governed archive/hold semantics | SIGN-OFF PENDING |
 | PCD-09 | Canonical project-control naming/structure under `project/` with living decision/register/control files | CONFIRMED |
 | PCD-10 | SQLite Decimal values stored as canonical TEXT via SQLAlchemy TypeDecorator | CONFIRMED |
-| PCD-11 | 50 tests/sample design baseline; 80 stretch; performance spike required; do not reopen SQLite from assumption alone | CONFIRMED; SPIKE PENDING |
+| PCD-11 | 50 tests/sample design baseline; 80 stretch; performance spike required; do not reopen SQLite from assumption alone | CONFIRMED; SPIKE DEFINED, EXECUTION PENDING |
 | PCD-12 | No Phase 3 schema exists; data architecture is built anew | CONFIRMED |
 | PCD-13 | Explicit execution/rework/retest/correction/state semantics | TECHNICAL AUTHORITY SIGN-OFF PENDING |
 | PCD-14 | Freeze-time ReportRevision snapshots; stale-before-issue creates new revision | CONFIRMED |

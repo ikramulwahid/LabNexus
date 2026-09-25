@@ -4,10 +4,10 @@
 Phase 0 — IN PROGRESS.
 
 ## What has been established
-The intended repository control layer is defined under `project/` around the three preserved root source documents. The control layer does not copy the 1,502-question source or the full decision text; it indexes them and records current state, active work, open items, changes, risks, traceability and checkpoint status.
+The repository contains the canonical `project/` control layer around the three preserved root source documents. P0-TASK-001 established the project-control baseline. P0-TASK-002 has now defined P0-WP-001, the performance-spike Work Package required by PCD-11.
 
 ## What has NOT happened
-No database, schema, migration, API, UI, application logic, test suite, deployment configuration or feature development has been started by this task.
+No database, schema, migration, API, UI, application logic, performance spike, production configuration or feature development has been started by these Phase 0 control tasks.
 
 ## Source/decision precedence
 Read the root source documents for historical/source detail. Use `project/decision-register.md` for the living decision index and supersession status. Do not silently revive superseded PQ answers.
@@ -16,7 +16,7 @@ Read the root source documents for historical/source detail. Use `project/decisi
 See `open-items.md`. These include authority sign-offs for PCD-03, PCD-06, PCD-08, PCD-13, PCD-17, PCD-23; launch/test/formula/QC/report/scope inputs under PCD-24/25; PCD-26 operational inputs; the PCD-01 privileged-role password option; and the PCD-22 migration assessment outcome.
 
 ## Immediate project guardrail
-Do not implement anything beyond the explicitly authorized Phase 0 baseline task. No feature or schema work is authorized by the current state.
+The next performance-spike execution must be separately authorized. Do not implement a benchmark harness, run the spike, or change the SQLite architecture merely because P0-WP-001 exists.
 
-## Suggested next authorization
-**P0-TASK-002 — Define the PCD-11 performance-spike Work Package** (definition only; do not execute the spike yet), or another explicitly authorized Phase 0 control task. Any execution remains subject to the Work Package → Authorized Task sequence.
+## Next proposed authorization
+**P0-TASK-003 — Execute P0-WP-001 performance spike** (only after the required execution dependencies and acceptance envelope are defined). This is a proposal, not current authorization.
