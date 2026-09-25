@@ -1,21 +1,13 @@
 # LabNexus Living Decision Register
 
 ## Purpose
-This is the **living project-control index** for decisions. It avoids copying the full historical decision text in `../Decision_register.md`.
-
-### Source relationship
-- `../Main_Prompt.md`: governing frozen baseline.
-- `../PreCoding_Questions_v0.8.md`: reconciled question/answer history.
-- `../Decision_register.md`: detailed PCD-01…PCD-27 reconciliation source.
-- This file: current decision index and future decision ledger.
-
-Historical source documents are preserved. A supersession changes current authority but never deletes the historical source.
+This is the living project-control index for decisions.
 
 ## Precedence
-1. Main Prompt D-001…D-015 remain the frozen architectural baseline.
-2. PQ R0.8 supplies reconciled requirements/question history.
-3. PCD-01…PCD-27 supersede the specific earlier answers identified by the decision register's amendment/supersession records.
-4. Future accepted ADRs/Decision records may supersede current decisions only through controlled change and must update this living register and affected baselines/contracts.
+1. `../Main_Prompt.md` — governing frozen baseline.
+2. `../PreCoding_Questions_v0.8.md` — reconciled question/answer history.
+3. `../Decision_register.md` — PCD-01…PCD-27 reconciliation source.
+4. This file and future accepted project decisions/ADRs update the living position through controlled change.
 
 ## Current decision index
 
@@ -31,7 +23,7 @@ Historical source documents are preserved. A supersession changes current author
 | PCD-08 | Minimum 10-year retention; later of last ReportRevision issue and closure, with governed archive/hold semantics | SIGN-OFF PENDING |
 | PCD-09 | Canonical project-control naming/structure under `project/` with living decision/register/control files | CONFIRMED |
 | PCD-10 | SQLite Decimal values stored as canonical TEXT via SQLAlchemy TypeDecorator | CONFIRMED |
-| PCD-11 | 50 tests/sample design baseline; 80 stretch; performance spike required; do not reopen SQLite from assumption alone | CONFIRMED; SPIKE DEFINED, EXECUTION PENDING |
+| PCD-11 | 50 tests/sample design baseline; 80 stretch; Windows spike completed with 0 integrity failures; tail-latency anomalies under review | PROVISIONAL B; FINAL ACCEPTANCE PENDING TELEMETRY/ACCEPTANCE |
 | PCD-12 | No Phase 3 schema exists; data architecture is built anew | CONFIRMED |
 | PCD-13 | Explicit execution/rework/retest/correction/state semantics | TECHNICAL AUTHORITY SIGN-OFF PENDING |
 | PCD-14 | Freeze-time ReportRevision snapshots; stale-before-issue creates new revision | CONFIRMED |
@@ -49,5 +41,5 @@ Historical source documents are preserved. A supersession changes current author
 | PCD-26 | Retained-sample period, disposal/hold, label printer and actual host/storage details required | LAB INPUT PENDING |
 | PCD-27 | Boilerplate PQ answers explicitly dispositioned into current controlled behavior | CONFIRMED |
 
-## Detailed source
-For full decision rationale and amendment text, use `../Decision_register.md`. Do not duplicate that document here.
+## PCD-11 disposition rule
+No production SLA is inferred from the spike. The final disposition requires evidence review and the applicable technical/project acceptance decision.

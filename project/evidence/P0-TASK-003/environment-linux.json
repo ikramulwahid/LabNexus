@@ -1,0 +1,17 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "system": "Linux",
+  "release": "6.18.44",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "sqlite": "3.46.1",
+  "cpu_logical": 3,
+  "disk_free_bytes": 31972929536,
+  "disk_total_bytes": 33770192896,
+  "cwd": "/mnt/data/LabNexus_P0_TASK003_spike/runs_ext2",
+  "ram_total_bytes": 6237257728,
+  "boot_time": 1790309122.0,
+  "samples_per_writer": 25,
+  "busy_timeout_ms": 5000,
+  "retry_max": 6,
+  "synchronous": "FULL"
+}

@@ -3,20 +3,20 @@
 ## Handoff state
 Phase 0 — IN PROGRESS.
 
+## Current task
+P0-TASK-004 — Complete PCD-11 Evidence Closure and Final Disposition.
+
 ## What has been established
-The repository contains the canonical `project/` control layer around the three preserved root source documents. P0-TASK-001 established the project-control baseline. P0-TASK-002 has now defined P0-WP-001, the performance-spike Work Package required by PCD-11.
+P0-TASK-001 and P0-TASK-002 are complete. P0-TASK-003 executed the PCD-11 workload on Windows across all 45 matrix cells.
 
-## What has NOT happened
-No database, schema, migration, API, UI, application logic, performance spike, production configuration or feature development has been started by these Phase 0 control tasks.
+## Current evidence position
+The supplied Windows run shows 0 integrity failures and 0 application errors, with 24 retry events and maximum 4 retries in any run. The results contain occasional multi-second maximum-latency outliers. The technical disposition is provisionally B, not final acceptance.
 
-## Source/decision precedence
-Read the root source documents for historical/source detail. Use `project/decision-register.md` for the living decision index and supersession status. Do not silently revive superseded PQ answers.
+## Remaining gate
+Run the supplementary host-telemetry validation in `project/evidence/P0-TASK-004/`, review CPU/memory/disk-I/O telemetry against the latency outliers, then complete the final PCD-11 acceptance record.
 
-## Open inputs
-See `open-items.md`. These include authority sign-offs for PCD-03, PCD-06, PCD-08, PCD-13, PCD-17, PCD-23; launch/test/formula/QC/report/scope inputs under PCD-24/25; PCD-26 operational inputs; the PCD-01 privileged-role password option; and the PCD-22 migration assessment outcome.
+## Guardrail
+Do not modify SQLite architecture and do not begin application/schema/API/UI work merely because PCD-11 appears viable.
 
-## Immediate project guardrail
-The next performance-spike execution must be separately authorized. Do not implement a benchmark harness, run the spike, or change the SQLite architecture merely because P0-WP-001 exists.
-
-## Next proposed authorization
-**P0-TASK-003 — Execute P0-WP-001 performance spike** (only after the required execution dependencies and acceptance envelope are defined). This is a proposal, not current authorization.
+## Proposed next authorization after PCD-11 closure
+The next Phase 0 control task should address the outstanding security-baseline consolidation, unless project authority selects another open Phase 0 control task.

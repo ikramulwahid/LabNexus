@@ -1,0 +1,48 @@
+{
+  "size_tests_per_sample": 25,
+  "writers": 1,
+  "rep": 1,
+  "samples_per_writer": 25,
+  "elapsed_s": 0.9144347999972524,
+  "throughput_tx_s": 792.8394676166944,
+  "tx_count": 725,
+  "latency_ms": {
+    "p50": 1.0093000018969178,
+    "p95": 1.3096999929985031,
+    "p99": 3.029468007152898,
+    "max": 17.600999999558553,
+    "mean": 1.0866684137024627
+  },
+  "retries": 0,
+  "retry_sleep_s": 0.0,
+  "errors": 0,
+  "process_exitcodes": [
+    0
+  ],
+  "expected_samples": 25,
+  "expected_tests": 625,
+  "expected_audits": 700,
+  "counts": {
+    "samples": 25,
+    "tests": 625,
+    "observations": 625,
+    "results": 625,
+    "audits": 700,
+    "non_approved_tests": 0,
+    "fk_check": [],
+    "integrity_check": "ok"
+  },
+  "integrity_ok": true,
+  "peak_db_bytes": 204800,
+  "peak_wal_bytes": 4152992,
+  "final_db_bytes": 204800,
+  "final_wal_bytes": 0,
+  "monitor": {
+    "peak_db_bytes": 204800,
+    "peak_wal_bytes": 4152992,
+    "max_monitor_process_cpu_percent": 0,
+    "max_monitor_process_rss_bytes": 0,
+    "max_child_cpu_percent": 0,
+    "max_child_rss_bytes": 0
+  }
+}

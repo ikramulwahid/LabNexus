@@ -1,0 +1,65 @@
+RUN size=10 writers=1 rep=1
+RUN size=10 writers=1 rep=2
+RUN size=10 writers=1 rep=3
+RUN size=10 writers=3 rep=1
+RUN size=10 writers=3 rep=2
+RUN size=10 writers=3 rep=3
+RUN size=10 writers=5 rep=1
+RUN size=10 writers=5 rep=2
+RUN size=10 writers=5 rep=3
+RUN size=25 writers=1 rep=1
+RUN size=25 writers=1 rep=2
+RUN size=25 writers=1 rep=3
+RUN size=25 writers=3 rep=1
+RUN size=25 writers=3 rep=2
+RUN size=25 writers=3 rep=3
+RUN size=25 writers=5 rep=1
+RUN size=25 writers=5 rep=2
+RUN size=25 writers=5 rep=3
+RUN size=50 writers=1 rep=1
+RUN size=50 writers=1 rep=2
+RUN size=50 writers=1 rep=3
+RUN size=50 writers=3 rep=1
+RUN size=50 writers=3 rep=2
+RUN size=50 writers=3 rep=3
+RUN size=50 writers=5 rep=1
+RUN size=50 writers=5 rep=2
+RUN size=50 writers=5 rep=3
+RUN size=65 writers=1 rep=1
+RUN size=65 writers=1 rep=2
+RUN size=65 writers=1 rep=3
+RUN size=65 writers=3 rep=1
+RUN size=65 writers=3 rep=2
+RUN size=65 writers=3 rep=3
+RUN size=65 writers=5 rep=1
+RUN size=65 writers=5 rep=2
+RUN size=65 writers=5 rep=3
+RUN size=80 writers=1 rep=1
+RUN size=80 writers=1 rep=2
+RUN size=80 writers=1 rep=3
+RUN size=80 writers=3 rep=1
+RUN size=80 writers=3 rep=2
+RUN size=80 writers=3 rep=3
+RUN size=80 writers=5 rep=1
+RUN size=80 writers=5 rep=2
+RUN size=80 writers=5 rep=3
+{
+  "environment": {
+    "platform": "Windows-11-10.0.26100-SP0",
+    "system": "Windows",
+    "release": "11",
+    "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "sqlite": "3.49.1",
+    "cpu_logical": 4,
+    "disk_free_bytes": 61362622464,
+    "disk_total_bytes": 238675816448,
+    "cwd": "C:\\Projects\\LabNexus_git\\project\\evidence\\P0-TASK-004\\windows-validation-r2",
+    "samples_per_writer": 25,
+    "busy_timeout_ms": 5000,
+    "retry_max": 6,
+    "synchronous": "FULL"
+  },
+  "runs": 45,
+  "integrity_failures": 0,
+  "max_retries": 4
+}

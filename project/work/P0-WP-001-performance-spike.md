@@ -1,7 +1,7 @@
 # P0-WP-001 — SQLite / Workload Performance Spike
 
 ## Status
-**DEFINED — EXECUTION NOT AUTHORIZED**
+**EXECUTION IN PROGRESS — PRELIMINARY TEST-DOUBLE COMPLETE; WINDOWS VALIDATION PENDING**
 
 ## Parent decision
 PCD-11 — 50 tests/sample design baseline; 80 tests/sample stretch; empirical performance spike required.
@@ -207,3 +207,6 @@ This spike does not:
 ## Decision record
 
 The final evidence review shall update PCD-11 status and, where necessary, open an architecture/change record. Until that evidence exists, PCD-11 remains **SPIKE EXECUTION PENDING**.
+
+## Execution note — 25 September 2026
+P0-TASK-003 executed the full defined matrix on a Linux host using the controlled test double. The result is preliminary evidence only; Windows-host validation is still required before PCD-11 acceptance.
