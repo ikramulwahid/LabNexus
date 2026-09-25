@@ -23,7 +23,7 @@ This is the living project-control index for decisions.
 | PCD-08 | Minimum 10-year retention; later of last ReportRevision issue and closure, with governed archive/hold semantics | SIGN-OFF PENDING |
 | PCD-09 | Canonical project-control naming/structure under `project/` with living decision/register/control files | CONFIRMED |
 | PCD-10 | SQLite Decimal values stored as canonical TEXT via SQLAlchemy TypeDecorator | CONFIRMED |
-| PCD-11 | 50 tests/sample design baseline; 80 stretch; Windows spike completed with 0 integrity failures; tail-latency anomalies under review | PROVISIONAL B; FINAL ACCEPTANCE PENDING TELEMETRY/ACCEPTANCE |
+| PCD-11 | 50 tests/sample design baseline; 80 stretch; Windows spike completed with 0 integrity failures; technical disposition B with documented operational controls/monitoring | TECHNICAL DISPOSITION B; FORMAL ACCEPTANCE PENDING |
 | PCD-12 | No Phase 3 schema exists; data architecture is built anew | CONFIRMED |
 | PCD-13 | Explicit execution/rework/retest/correction/state semantics | TECHNICAL AUTHORITY SIGN-OFF PENDING |
 | PCD-14 | Freeze-time ReportRevision snapshots; stale-before-issue creates new revision | CONFIRMED |
@@ -41,5 +41,8 @@ This is the living project-control index for decisions.
 | PCD-26 | Retained-sample period, disposal/hold, label printer and actual host/storage details required | LAB INPUT PENDING |
 | PCD-27 | Boilerplate PQ answers explicitly dispositioned into current controlled behavior | CONFIRMED |
 
-## PCD-11 disposition rule
-No production SLA is inferred from the spike. The final disposition requires evidence review and the applicable technical/project acceptance decision.
+## Phase 1 evidence package
+P0-TASK-006 defines P0-WP-002 covering requirements evidence, security verification planning, laboratory authority inputs, role-holder feasibility, V&V preparation and pre-implementation acceptance gates.
+
+## Security prerequisite
+P0-TASK-005 remains the required consolidation task for SB-AMEND-001 before Phase 1 security execution.

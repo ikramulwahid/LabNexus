@@ -4,21 +4,25 @@
 **Phase 0 — IN PROGRESS**
 
 ### Baseline status
-- Repository reviewed before structural change.
-- Original source files are preserved.
-- Canonical living project-control layer is under `project/`.
+- Canonical `project/` control layer is established.
+- Original root source/history files are preserved.
 - No Phase 3 schema exists.
 - No application, database schema, API, UI or migration implementation has been started by the Phase 0 control tasks.
 - P0-TASK-001 and P0-TASK-002 are complete.
-- P0-TASK-003 execution produced the required 45-cell Windows workload evidence.
-- P0-TASK-004 is IN PROGRESS for PCD-11 evidence closure.
+- P0-TASK-003 executed the required 45-cell Windows workload.
+- P0-TASK-004 technical evidence review is complete; formal PCD-11 acceptance is still pending.
+- P0-TASK-006 definition is complete; P0-WP-002 is defined and Phase 1 execution remains unauthorized.
 - No architecture change has been made.
 - No Phase 0 checkpoint is ACCEPTED.
 
 ### PCD-11 evidence state
-The Windows execution completed all 45 matrix cells with zero reported integrity failures and zero application errors. There were 24 retry events in total and a maximum of 4 retries in any run. The supplied results include occasional multi-second maximum transaction latency outliers, including approximately 10.6 seconds.
+The Windows workload completed all 45 matrix cells with zero integrity failures and zero application errors. The supplementary host-telemetry run completed with benchmark exit code 0, 138 valid telemetry samples and zero telemetry-capture errors. Technical disposition: **B — Baseline supported with documented operational controls/monitoring**. Formal acceptance remains subject to the applicable project/technical acceptance record.
 
-A provisional technical disposition is **B — Baseline supported with documented operational controls/monitoring**. Final acceptance is pending a time-aligned Windows host CPU/memory/disk-I/O telemetry record and the applicable acceptance decision.
+### Security state
+`project/security.md` remains the current security index. P0-TASK-005 — consolidation of SB-AMEND-001 into the fuller controlled security baseline — is a separate prerequisite and has not yet been applied in this repository state.
+
+### Phase 1 readiness state
+P0-WP-002 defines the requirements/security evidence streams and pre-implementation acceptance gates. Phase 1 execution must not begin until its prerequisites and gates are satisfied.
 
 ### Guardrail
-Do not treat the performance spike as authorization to change SQLite, redesign the schema, or begin application implementation.
+Do not infer implementation authority from any completed Phase 0 definition or technical disposition. Follow `Phase → Work Package → Authorized Task → Implementation → Test → Verification → Evidence → Checkpoint`.

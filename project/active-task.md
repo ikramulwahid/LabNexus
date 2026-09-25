@@ -1,22 +1,35 @@
 # Active Task
 
 ## Task ID
-P0-TASK-004
+P0-TASK-006
 
 ## Title
-Complete PCD-11 Evidence Closure and Final Disposition
+Define the Phase 1 Security / Requirements Evidence Work Package
 
 ## Status
-**COMPLETE**
+**COMPLETE — DEFINITION ONLY**
 
 ## Authorization
-Explicit project instruction dated 25 September 2026 authorizing completion of PCD-11 evidence closure and final disposition.
+Explicit project instruction dated 25 September 2026 authorizing P0-TASK-006.
+
+## Objective
+Define the Phase 1 evidence/work-package structure for requirements, security verification, laboratory authority inputs, role-holder feasibility and pre-implementation acceptance gates.
+
+## In scope
+- Define P0-WP-002.
+- Reconcile the current control records so PCD-11 is accurately represented as technical disposition B / formal acceptance pending.
+- Define Phase 1 evidence streams and entry/exit gates.
+
+## Out of scope
+- Security implementation.
+- Application/database/API/UI implementation.
+- Schema/migrations.
+- Phase 1 evidence execution.
+- UAT/validation execution.
+- Production configuration.
 
 ## Completion evidence
-The original 45-cell Windows execution was reviewed, the supplementary R5 host-telemetry run completed with benchmark exit code 0, 138 valid telemetry samples and zero telemetry-capture errors, and the PCD-11 technical disposition was recorded as **B — Baseline supported with documented operational controls/monitoring**.
+P0-WP-002 and P0-TASK-006 are defined and the control records describe the required Phase 1 gates. P0-TASK-005 remains a prerequisite for Phase 1 security execution.
 
 ## Completion state
-**COMPLETE.** Formal PCD-11 acceptance is not claimed; it remains subject to the required authority/checkpoint process. No SQLite architecture change or application implementation was introduced.
-
-## Next proposed task
-P0-TASK-005 — Consolidate SB-AMEND-001 into the controlled project security baseline.
+**COMPLETE.** P0-TASK-006 defines the next controlled Phase 1 evidence package. It does not authorize implementation or Phase 1 execution.

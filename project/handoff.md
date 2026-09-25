@@ -3,20 +3,21 @@
 ## Handoff state
 Phase 0 — IN PROGRESS.
 
-## Current task
-P0-TASK-004 — Complete PCD-11 Evidence Closure and Final Disposition.
+## Completed Phase 0 control tasks
+- P0-TASK-001 — Project-control baseline: COMPLETE.
+- P0-TASK-002 — PCD-11 performance-spike Work Package definition: COMPLETE.
+- P0-TASK-003 — PCD-11 workload execution: COMPLETE.
+- P0-TASK-004 — PCD-11 evidence closure/technical disposition: COMPLETE; technical disposition B, formal acceptance pending.
+- P0-TASK-006 — Phase 1 security/requirements evidence Work Package definition: COMPLETE.
 
-## What has been established
-P0-TASK-001 and P0-TASK-002 are complete. P0-TASK-003 executed the PCD-11 workload on Windows across all 45 matrix cells.
+## Important pending prerequisite
+P0-TASK-005 — SB-AMEND-001 security-baseline consolidation — is authorized but not yet applied/committed in this repository state.
 
-## Current evidence position
-The supplied Windows run shows 0 integrity failures and 0 application errors, with 24 retry events and maximum 4 retries in any run. The results contain occasional multi-second maximum-latency outliers. The technical disposition is provisionally B, not final acceptance.
+## Current Phase 1 control package
+P0-WP-002 is defined but **execution is not authorized**. It covers requirements evidence, security verification planning, laboratory authority inputs, Role-Holder Matrix feasibility, V&V preparation and pre-implementation gates.
 
-## Remaining gate
-Run the supplementary host-telemetry validation in `project/evidence/P0-TASK-004/`, review CPU/memory/disk-I/O telemetry against the latency outliers, then complete the final PCD-11 acceptance record.
+## Outstanding controlled inputs
+See `open-items.md` and the relevant PCDs, especially PCD-03, PCD-06, PCD-08, PCD-13, PCD-17, PCD-23, PCD-24, PCD-25 and PCD-26.
 
 ## Guardrail
-Do not modify SQLite architecture and do not begin application/schema/API/UI work merely because PCD-11 appears viable.
-
-## Proposed next authorization after PCD-11 closure
-The next Phase 0 control task should address the outstanding security-baseline consolidation, unless project authority selects another open Phase 0 control task.
+No application, schema, migration, API, UI or feature work is authorized by P0-TASK-006 or P0-WP-002.

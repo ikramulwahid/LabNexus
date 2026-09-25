@@ -21,10 +21,10 @@ Verified the control layer in GitHub after commit/push. P0-TASK-001 completed; P
 Created P0-WP-001 and P0-TASK-002 covering the workload matrix, evidence requirements and execution boundary.
 
 ### CHG-007 — Execute PCD-11 Windows workload
-Executed the 45-cell Windows workload with 0 integrity failures and 0 application errors. Recorded retries and tail-latency behavior as evidence.
+Executed the 45-cell Windows workload with zero reported integrity failures and zero application errors. Recorded retries and tail-latency behavior.
 
-### CHG-008 — PCD-11 evidence closure review
-Prepared the provisional B disposition and supplementary host-telemetry requirement. Final acceptance remains pending telemetry and acceptance review.
+### CHG-008 — Close PCD-11 technical evidence review
+Completed supplementary host telemetry and recorded technical disposition B. Formal PCD-11 acceptance remains subject to the applicable acceptance record.
 
-## Current status
-No schema, API, UI, feature or SQLite architecture change has been introduced by these changes.
+### CHG-009 — Define Phase 1 security/requirements evidence Work Package
+Created P0-WP-002 and P0-TASK-006, including requirements/security evidence streams, laboratory-authority inputs, role-holder feasibility and pre-implementation acceptance gates. P0-TASK-005 remains a prerequisite for Phase 1 security execution.
