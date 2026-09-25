@@ -1,35 +1,22 @@
 # Active Task
 
 ## Task ID
-P0-TASK-006
+P0-TASK-005
 
 ## Title
-Define the Phase 1 Security / Requirements Evidence Work Package
+Consolidate SB-AMEND-001 into the Controlled Project Security Baseline
 
 ## Status
-**COMPLETE — DEFINITION ONLY**
+**COMPLETE**
 
 ## Authorization
-Explicit project instruction dated 25 September 2026 authorizing P0-TASK-006.
-
-## Objective
-Define the Phase 1 evidence/work-package structure for requirements, security verification, laboratory authority inputs, role-holder feasibility and pre-implementation acceptance gates.
-
-## In scope
-- Define P0-WP-002.
-- Reconcile the current control records so PCD-11 is accurately represented as technical disposition B / formal acceptance pending.
-- Define Phase 1 evidence streams and entry/exit gates.
-
-## Out of scope
-- Security implementation.
-- Application/database/API/UI implementation.
-- Schema/migrations.
-- Phase 1 evidence execution.
-- UAT/validation execution.
-- Production configuration.
+Explicit project instruction dated 25 September 2026 authorizing P0-TASK-005 after P0-TASK-004 technical evidence closure.
 
 ## Completion evidence
-P0-WP-002 and P0-TASK-006 are defined and the control records describe the required Phase 1 gates. P0-TASK-005 remains a prerequisite for Phase 1 security execution.
+`project/security.md` now consolidates Main Prompt security controls with PCD-01, PCD-15, PCD-19, PCD-20, PCD-21 and SB-AMEND-001. Historical source documents remain preserved. Security open items and implementation/verification boundaries are recorded.
 
 ## Completion state
-**COMPLETE.** P0-TASK-006 defines the next controlled Phase 1 evidence package. It does not authorize implementation or Phase 1 execution.
+**COMPLETE.** No application, database, schema, API, UI, migration or feature implementation was introduced.
+
+## Next proposed task
+P0-TASK-006 — Define the Phase 1 security/requirements evidence work package, or another explicitly authorized Phase 0 control task.

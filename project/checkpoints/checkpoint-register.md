@@ -4,10 +4,13 @@
 
 | Checkpoint | Scope | Status | Acceptance |
 |---|---|---|---|
-| P0-CHECKPOINT | Phase 0 project-control baseline | OPEN / IN PROGRESS | **NOT ACCEPTED** |
+| P0-CHECKPOINT | Phase 0 project-control baseline and control tasks | OPEN / IN PROGRESS | **NOT ACCEPTED** |
 
-## PCD-11 evidence state
-P0-TASK-004 technical evidence review is complete. The Windows workload evidence supports technical disposition **B — Baseline supported with documented operational controls/monitoring**. Formal PCD-11 acceptance is not claimed here and remains subject to the required project/technical acceptance record.
+## Task completion notes
+- P0-TASK-001: COMPLETE.
+- P0-TASK-002: COMPLETE.
+- P0-TASK-004: technical evidence closure COMPLETE; PCD-11 formal acceptance remains pending the required authority/checkpoint record.
+- P0-TASK-005: COMPLETE documentation/security consolidation.
 
 ## Acceptance rule
-Phase 0 cannot be marked accepted merely because work products exist. The applicable Phase 0 work must have defined deliverables, evidence, verification, open-item/risk review and the required authorization/acceptance decision.
+Phase 0 cannot be marked accepted merely because control documents exist. Applicable work requires deliverables, evidence, verification, open-item/risk review and the required authorization/acceptance decision.
