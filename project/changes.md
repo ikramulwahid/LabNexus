@@ -31,3 +31,6 @@ Consolidated PCD-03/05/13/14 into `project/domain-model.md`, preserved historica
 
 ### CHG-010 — Complete Phase 0 control-consistency review and checkpoint dossier
 Reviewed the Phase 0 control layer after P0-TASK-007; corrected stale P0-TASK-003/P0-WP-001 Windows-pending status, corrected stale P0-TASK-006 security-reference wording, added explicit PCD-13/14 traceability, documented the P0 checkpoint evidence/acceptance distinction, and prepared the controlled checkpoint dossier. No checkpoint acceptance was claimed.
+
+### CHG-011 — Reconcile Phase 0 authority/checkpoint decision status
+Performed P0-TASK-009 against GitHub `main` at `849cfce`. No new authority acceptance records were identified for PCD-03/06/08/13/17/23 or the PCD-01 12-character option; PCD-11 remains technical disposition B with formal acceptance not recorded; PCD-24/25/26 inputs remain pending; PCD-22 remains confirmed with final assessment deferred to Phase 1. The P0 checkpoint remains OPEN / NOT ACCEPTED.

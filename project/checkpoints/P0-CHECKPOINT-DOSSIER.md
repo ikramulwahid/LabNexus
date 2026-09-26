@@ -1,7 +1,7 @@
 # P0-CHECKPOINT-DOSSIER — Phase 0 Control and Acceptance Assessment
 
 ## Status
-**DOSSIER PREPARED — CHECKPOINT NOT ACCEPTED**
+**DOSSIER RECONCILED BY P0-TASK-009 — CHECKPOINT NOT ACCEPTED**
 
 ## Assessment date
 26 September 2026
@@ -29,6 +29,7 @@ Historical source files remain preserved and are not silently rewritten.
 | P0-TASK-006 | COMPLETE | `project/work/P0-TASK-006.md`; `P0-WP-002` | Definition only; Phase 1 execution not authorized |
 | P0-TASK-007 | COMPLETE | `project/domain-model.md`; commit `91b72d15` | Domain baseline complete; implementation not authorized |
 | P0-TASK-008 | COMPLETE | This dossier and corrected control records | Dossier prepared; P0 checkpoint remains not accepted |
+| P0-TASK-009 | COMPLETE | `project/work/P0-TASK-009.md`; reconciled living control records | No new authority acceptance records identified; P0 checkpoint remains not accepted |
 
 ## 4. PCD-11 evidence and technical disposition
 
@@ -64,19 +65,25 @@ The approved SQLite architecture remains unchanged.
 
 | Ref | Required decision/input | Current state |
 |---|---|---|
-| PCD-03 | SoD Matrix v1 formal sign-off | OPEN |
-| PCD-06 | Execution-start accreditation rule sign-off | OPEN |
-| PCD-08 | Retention start/archive rule sign-off | OPEN |
-| PCD-13 | Rework/retest/correction/state semantics sign-off | OPEN |
-| PCD-17 | Competence model sign-off | OPEN |
+| PCD-03 | SoD Matrix v1 formal sign-off | NOT RECORDED / PENDING |
+| PCD-06 | Execution-start accreditation rule sign-off | NOT RECORDED / PENDING |
+| PCD-08 | Retention start/archive rule sign-off | NOT RECORDED / PENDING |
+| PCD-13 | Rework/retest/correction/state semantics sign-off | NOT RECORDED / PENDING |
+| PCD-17 | Competence model sign-off | NOT RECORDED / PENDING |
 | PCD-22 | Final migrate/No Migration Required assessment | PENDING at end of Phase 1 |
-| PCD-23 | Named Role-Holder Matrix/staffing feasibility | OPEN |
-| PCD-24 | Launch Test Catalogue + golden cases | LAB INPUT PENDING |
-| PCD-25 | QC Matrix, NABL scope mapping, wording/report/template/watermark | LAB INPUT PENDING |
-| PCD-26 | Retained-sample/disposal/labels/host/storage inputs | LAB INPUT PENDING |
-| PCD-01 option | Privileged-role 12-character minimum decision | OPEN |
+| PCD-23 | Named Role-Holder Matrix/staffing feasibility | NOT RECORDED / PENDING |
+| PCD-24 | Launch Test Catalogue + golden cases | LAB INPUT NOT RECORDED / PENDING |
+| PCD-25 | QC Matrix, NABL scope mapping, wording/report/template/watermark | LAB INPUT NOT RECORDED / PENDING |
+| PCD-26 | Retained-sample/disposal/labels/host/storage inputs | LAB INPUT NOT RECORDED / PENDING |
+| PCD-01 option | Privileged-role 12-character minimum decision | NOT RECORDED / PENDING; DEFAULT 8 |
 
-## 7. Current project risks relevant to checkpoint
+## 7. P0-TASK-009 authority/checkpoint reconciliation
+
+No new authority acceptance record was identified in the current GitHub `main` repository state or searchable repository acceptance surfaces. No absence-of-record condition was interpreted as approval.
+
+PCD-03, PCD-06, PCD-08, PCD-13, PCD-17 and PCD-23 therefore remain open. The optional PCD-01 12-character privileged-role minimum remains undecided, with the controlled default at 8. PCD-11 remains technical disposition B without formal acceptance. PCD-24/25/26 laboratory inputs remain pending. PCD-22 selective migration remains the confirmed default and its final assessment remains a Phase 1 activity.
+
+## 8. Current project risks relevant to checkpoint
 - Required authority sign-offs remain outstanding.
 - Laboratory technical inputs are not yet supplied.
 - Staffing/SoD feasibility is not yet demonstrated.
@@ -85,7 +92,7 @@ The approved SQLite architecture remains unchanged.
 - Historical reconstruction could be weakened by implementation shortcuts and must be protected by verification.
 - Checkpoint acceptance must not be inferred from documentation completion.
 
-## 8. Acceptance criteria
+## 9. Acceptance criteria
 The P0 checkpoint may be considered for formal acceptance only when the responsible authority records confirm, as applicable:
 
 1. Phase 0 control deliverables are present and internally consistent.
@@ -96,14 +103,14 @@ The P0 checkpoint may be considered for formal acceptance only when the responsi
 6. No unauthorized implementation has begun.
 7. Repository state and acceptance records are updated together.
 
-## 9. Current checkpoint decision
+## 10. Current checkpoint decision
 
 **OPEN / IN PROGRESS — NOT ACCEPTED**
 
 This dossier is an assessment and evidence package. It is not the acceptance decision itself.
 
-## 10. Non-authorizations
-Preparation of this dossier does not authorize:
+## 11. Non-authorizations
+Preparation/reconciliation of this dossier does not authorize:
 - application implementation;
 - database schema or migrations;
 - API/UI development;

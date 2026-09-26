@@ -15,13 +15,19 @@
 - PCD-03, PCD-05, PCD-13 and PCD-14 are consolidated into the controlled `project/domain-model.md` baseline.
 - P0-TASK-006 Phase 1 evidence Work Package definition is complete; execution remains unauthorized.
 - P0-TASK-008 consistency review and checkpoint dossier preparation are complete.
+- P0-TASK-009 authority/checkpoint decision reconciliation is complete; no new authority acceptance records were identified.
 - No Phase 0 checkpoint is ACCEPTED.
 
 ### Current active work
-P0-TASK-008 — control-consistency review and checkpoint dossier preparation — complete.
+P0-TASK-009 — authority/checkpoint decision reconciliation — complete.
+
+P0-TASK-008 remains complete as the preceding control-consistency review and checkpoint dossier preparation task.
 
 ### Domain and security position
 The controlled security and domain-model baselines are documented. PCD-03 and PCD-13 retain their stated authority sign-off dependencies; PCD-05 and PCD-14 remain confirmed decisions. Security implementation and domain implementation remain separately governed.
+
+### Decision reconciliation position
+No required Phase 0 authority acceptance identified by P0-TASK-009 was inferred from absence of a record. PCD-11 remains technical disposition B without formal acceptance; PCD-03/06/08/13/17/23 remain pending; PCD-01's optional 12-character privileged-role minimum remains undecided; PCD-24/25/26 laboratory inputs remain pending; and PCD-22's final migration assessment remains a Phase 1 activity.
 
 ### Authoritative position
 Use the root source documents for historical/source detail and the `project/` living control layer for current indexed status. Do not revive superseded answers silently.
