@@ -15,8 +15,8 @@ Define the controlled Phase 1 evidence/work-package structure required before im
 - `Decision_register.md` PCD-01…PCD-27.
 - `project/constitution.md`, `project/requirements.md`, `project/security.md`, `project/traceability.md`.
 
-## Important sequencing note
-P0-TASK-005 remains a separate prerequisite for Phase 1 execution. P0-TASK-006 does not substitute for security-baseline consolidation or approval.
+## Sequencing state
+P0-TASK-005 was subsequently completed and committed before this checkpoint review. P0-WP-002 remains a definition-only work package; Phase 1 execution is not authorized by this task.
 
 ## In scope
 - Define P0-WP-002 Phase 1 evidence streams.
@@ -38,7 +38,7 @@ P0-TASK-005 remains a separate prerequisite for Phase 1 execution. P0-TASK-006 d
 
 ## Deliverables
 1. `project/work/P0-WP-002-phase1-evidence.md`
-2. Updated `active-task.md`, `current-state.md`, `handoff.md`, `decision-register.md`, `changes.md`, and `risks.md`.
+2. Updated Phase 0 control records.
 3. A defined pre-implementation acceptance gate sequence.
 
 ## Completion criteria
@@ -47,7 +47,7 @@ P0-TASK-005 remains a separate prerequisite for Phase 1 execution. P0-TASK-006 d
 - [x] Laboratory-authority inputs are mapped to their owning PCDs.
 - [x] Role-holder feasibility is explicitly required.
 - [x] Pre-implementation acceptance gates are defined.
-- [x] P0-TASK-005 is identified as a prerequisite for Phase 1 security execution.
+- [x] P0-TASK-005 is identified as a prerequisite and is now complete in the repository history.
 - [x] No implementation authority is created.
 - [x] PCD-11 is carried forward as technical disposition B / formal acceptance pending.
 

@@ -1,7 +1,7 @@
 # P0-TASK-003 — Execute P0-WP-001 Performance Spike
 
 ## Status
-**EXECUTION IN PROGRESS — PRELIMINARY TEST-DOUBLE COMPLETE; WINDOWS VALIDATION PENDING**
+**COMPLETE — EXECUTION AND WINDOWS VALIDATION COMPLETE; EVIDENCE REVIEWED BY P0-TASK-004**
 
 ## Authorization
 Explicit project instruction dated 25 September 2026 authorizing execution of P0-WP-001.
@@ -14,25 +14,19 @@ A standalone controlled SQLite test-double benchmark was executed across the com
 - 10, 25, 50, 65 and 80 tests/sample;
 - 1, 3 and 5 concurrent writers;
 - 3 repetitions per cell;
-- 25 samples per writer per run;
-- 168,750 transactions total.
+- 25 samples per writer per run.
 
-## Preliminary result
-- 0 integrity failures.
-- 0 worker/application errors.
-- 0 retry events after busy/locked timeout.
-- `PRAGMA integrity_check` = `ok` for every run.
-- No foreign-key violations.
-- Worst observed transaction latency was approximately 531 ms at 80 tests/sample with 5 writers on the Linux host, indicating a long-tail write-contention effect without data-integrity failure.
+The required Windows validation was subsequently completed and reviewed under P0-TASK-004.
 
-## Host limitation
-The available execution host is Linux. The intended deployment is Windows. This result is therefore **not final Windows deployment evidence**.
-
-## Remaining execution requirement
-Run `RUN_WINDOWS_VALIDATION.ps1` on the intended or representative Windows host and attach the resulting environment and measurement evidence.
-
-## Out of scope
-No LabNexus application code, Phase 3 schema, migration, UI/API implementation or SQLite architecture change was introduced by this task.
+## Evidence state
+- Original Linux execution is retained as preliminary evidence only.
+- Windows validation completed all 45/45 matrix cells.
+- Supplementary R5 Windows evidence also completed 45/45 matrix cells with benchmark exit code 0.
+- Across the reviewed Windows evidence there were 0 integrity failures and 0 application errors.
+- Tail-latency anomalies and retry behavior were retained as observed evidence and were not hidden by percentile summaries.
 
 ## Completion gate
-P0-TASK-003 remains open until the Windows-host execution evidence is reviewed and the PCD-11 acceptance outcome is formally recorded.
+P0-TASK-003 is closed because the Windows execution requirement was completed and the resulting evidence was reviewed by P0-TASK-004. PCD-11 technical disposition is recorded as **B — Baseline supported with documented operational controls/monitoring**; formal acceptance remains subject to the required authority/checkpoint process.
+
+## Out of scope
+No LabNexus application code, Phase 3 schema, migration, UI/API implementation, feature development or SQLite architecture replacement was introduced by this task.

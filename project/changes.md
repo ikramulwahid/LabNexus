@@ -1,6 +1,6 @@
 # LabNexus Change History
 
-## Phase 0 baseline changes — 24–25 September 2026
+## Phase 0 baseline changes — 24–26 September 2026
 
 ### CHG-001 — Establish canonical project-control layer
 Created the intended `project/` control layer specified by PCD-09 while preserving the three root source/history files.
@@ -28,3 +28,6 @@ Merged SB-AMEND-001 and PCD-01/15/19/20/21 security controls with the governing 
 
 ### CHG-009 — Establish controlled domain-model baseline
 Consolidated PCD-03/05/13/14 into `project/domain-model.md`, preserved historical supersessions, recorded remaining authority/laboratory inputs, reconciled security consistency, and corrected the stale P0-TASK-005 next-task reference.
+
+### CHG-010 — Complete Phase 0 control-consistency review and checkpoint dossier
+Reviewed the Phase 0 control layer after P0-TASK-007; corrected stale P0-TASK-003/P0-WP-001 Windows-pending status, corrected stale P0-TASK-006 security-reference wording, added explicit PCD-13/14 traceability, documented the P0 checkpoint evidence/acceptance distinction, and prepared the controlled checkpoint dossier. No checkpoint acceptance was claimed.

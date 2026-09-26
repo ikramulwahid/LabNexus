@@ -1,25 +1,25 @@
 # Active Task
 
 ## Task ID
-P0-TASK-007
+P0-TASK-008
 
 ## Title
-Establish the Controlled Domain-Model Baseline for PCD-03, PCD-05, PCD-13 and PCD-14
+Conduct the Phase 0 Control-Consistency Review and Prepare the P0 Checkpoint Dossier
 
 ## Status
-**COMPLETE**
+**COMPLETE — CHECKPOINT DOSSIER PREPARED; CHECKPOINT NOT ACCEPTED**
 
 ## Authorization
-Explicit project instruction dated 25 September 2026 authorizing P0-TASK-007.
+Explicit project instruction dated 26 September 2026 authorizing P0-TASK-008.
 
 ## Completion evidence
-`project/domain-model.md` now contains the controlled domain-model baseline for PCD-03, PCD-05, PCD-13 and PCD-14. Historical source documents and supersession relationships remain preserved. Remaining authority/laboratory inputs and non-authorizations are explicit.
+The Phase 0 control layer was reviewed against the governing source baseline. Stale performance-status records, the stale Phase 1 security-reference wording, and missing explicit PCD-13/14 traceability rows were identified and prepared for controlled correction. The checkpoint dossier records completed work, evidence references, open items, risks, authority decisions required, and acceptance criteria.
 
 ## Completion state
-**COMPLETE.** No application, database, schema, API, UI, migration, calculation or feature implementation was introduced.
+**COMPLETE.** No application, database, schema, migration, API, UI, calculation, feature, production configuration, UAT, or validation implementation/execution was introduced.
 
-## Control reconciliation
-The stale P0-TASK-005 next-task reference was corrected from P0-TASK-006 to P0-TASK-007.
+## Formal acceptance state
+The Phase 0 checkpoint remains **OPEN / IN PROGRESS — NOT ACCEPTED**. PCD-11 remains technical disposition B / formal acceptance pending. Other authority and laboratory dependencies remain open as recorded.
 
 ## Next proposed task
-P0-TASK-008 — Conduct the Phase 0 control-consistency review and prepare the P0 checkpoint dossier, or another explicitly authorized Phase 0 control task.
+P0-TASK-009 — Record and reconcile the required Phase 0 authority/checkpoint acceptance decisions when the responsible authorities provide them, or another explicitly authorized Phase 0 control task.

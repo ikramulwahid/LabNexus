@@ -12,3 +12,5 @@
 | R-008 | Privileged-role password-length option remains undecided | Current controlled default remains 8; obtain Project Owner decision before changing it | OPEN |
 | R-009 | Detailed TestInstance state-transition guards are not yet fully specified | Complete the approved Phase 1–2 transition matrix without inventing laboratory rules | OPEN |
 | R-010 | Result/report historical reconstruction could be weakened by implementation shortcuts | Preserve direct ResultRevision and ReportResultSnapshot linkage; verify end-to-end reconstruction | OPEN |
+| R-011 | Phase 0 checkpoint may be treated as accepted because documentation is complete | Keep checkpoint status explicitly OPEN / NOT ACCEPTED until required authority record exists | OPEN |
+| R-012 | P0-TASK-001 has no dedicated task file in `project/work/` | Retain commit/control-record evidence; optionally backfill a historical task record only through a separately controlled documentation task | OPEN |
