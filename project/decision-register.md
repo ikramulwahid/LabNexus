@@ -74,5 +74,11 @@ The current GitHub `main` state was reviewed together with the Phase 0 checkpoin
 
 No absence-of-record condition has been interpreted as approval. Historical sources remain unchanged.
 
+## P0-TASK-010 controlled follow-up plan — 26 September 2026
+
+The remaining Phase 0 dependencies are now classified by gate. Formal P0 checkpoint acceptance is the overall Phase 1 entry gate. PCD-03/06/08/13/17/23, PCD-11 formal acceptance, and the PCD-01 privileged-role option decision are checkpoint/entry dependencies. PCD-24/25/26 are dependent implementation/operational input gates. PCD-22 final migration assessment remains an end-of-Phase-1 activity.
+
+No pending item is treated as approved without attributable evidence. Named individuals are not invented where only an authority role is currently known.
+
 ## Rule
 A later accepted decision may supersede an earlier one only through controlled change. Historical source files are never silently rewritten.

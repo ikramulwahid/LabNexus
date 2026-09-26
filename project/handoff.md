@@ -13,6 +13,7 @@ Phase 0 — IN PROGRESS.
 - P0-TASK-007 controlled domain-model baseline is complete.
 - P0-TASK-008 control-consistency review and checkpoint dossier preparation are complete.
 - P0-TASK-009 authority/checkpoint decision reconciliation is complete; no new authority acceptance records were identified.
+- P0-TASK-010 controlled Phase 0 follow-up plan is complete; Phase 1 entry and dependent implementation gates are explicitly classified.
 
 ## What has NOT happened
 No application, database schema, migration, API, UI, feature, production configuration, UAT or validation implementation/execution has started under these Phase 0 control tasks.
@@ -27,4 +28,4 @@ P0-TASK-009 searched the current repository control records and searchable GitHu
 The P0-CHECKPOINT dossier is prepared and reconciled, but the checkpoint remains OPEN / IN PROGRESS and NOT ACCEPTED. Technical dispositions and documentation completion are not substitutes for formal authority/checkpoint acceptance.
 
 ## Next proposed authorization
-**P0-TASK-010 — Define the controlled Phase 0 follow-up plan for the outstanding authority, staffing, laboratory-input and checkpoint-acceptance dependencies**, or another explicitly authorized Phase 0 control task. This is a proposal, not current authorization.
+**P0-TASK-011 — Collect and record the first available authority/laboratory decision packet against the controlled follow-up register**, or another explicitly authorized Phase 0 control task. This is a proposal, not current authorization.

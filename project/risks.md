@@ -14,3 +14,4 @@
 | R-010 | Result/report historical reconstruction could be weakened by implementation shortcuts | Preserve direct ResultRevision and ReportResultSnapshot linkage; verify end-to-end reconstruction | OPEN |
 | R-011 | Phase 0 checkpoint may be treated as accepted because documentation is complete | Keep checkpoint status explicitly OPEN / NOT ACCEPTED until required authority record exists | OPEN |
 | R-012 | P0-TASK-001 has no dedicated task file in `project/work/` | Retain commit/control-record evidence; optionally backfill a historical task record only through a separately controlled documentation task | OPEN |
+| R-013 | Phase 1 entry could be confused with dependent implementation gates or the later migration assessment | P0-TASK-010 explicitly classifies checkpoint/entry dependencies, affected-scope implementation gates, and the end-of-Phase-1 migration assessment | CLOSED after Phase 0 control-plan clarification |

@@ -16,6 +16,7 @@
 - P0-TASK-007: COMPLETE controlled domain-model baseline for PCD-03/05/13/14.
 - P0-TASK-008: COMPLETE control-consistency review and checkpoint dossier preparation.
 - P0-TASK-009: COMPLETE authority/checkpoint decision reconciliation; no new authority acceptance records identified.
+- P0-TASK-010: COMPLETE controlled Phase 0 follow-up plan and gate classification.
 
 ## Acceptance distinction
 - **Technical disposition:** PCD-11 = B — Baseline supported with documented operational controls/monitoring.
@@ -37,3 +38,12 @@ At minimum, the dossier identifies:
 
 ## Acceptance rule
 Phase 0 cannot be marked accepted merely because control documents or a checkpoint dossier exist. Applicable work requires deliverables, evidence, verification, open-item/risk review and the required authorization/acceptance decision.
+
+
+## P0-TASK-010 follow-up gate classification
+- **Overall Phase 1 entry gate:** formal P0-CHECKPOINT acceptance.
+- **Checkpoint/entry dependencies:** PCD-03, PCD-06, PCD-08, PCD-13, PCD-17, PCD-23, PCD-11 formal acceptance, and the PCD-01 privileged-role password option decision.
+- **Dependent implementation/operational gates:** PCD-24, PCD-25 and PCD-26 before affected configuration becomes effective.
+- **Later Phase 1 assessment:** PCD-22 final migration assessment at the end of Phase 1.
+
+The P0 checkpoint remains **OPEN / IN PROGRESS — NOT ACCEPTED**.

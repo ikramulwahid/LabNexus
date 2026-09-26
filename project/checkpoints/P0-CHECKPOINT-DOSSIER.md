@@ -109,7 +109,18 @@ The P0 checkpoint may be considered for formal acceptance only when the responsi
 
 This dossier is an assessment and evidence package. It is not the acceptance decision itself.
 
-## 11. Non-authorizations
+## 11. P0-TASK-010 controlled follow-up classification
+
+Formal P0-CHECKPOINT acceptance is the overall Phase 1 entry gate. The current checkpoint remains OPEN / IN PROGRESS — NOT ACCEPTED.
+
+The follow-up classification is:
+- **Checkpoint/Phase 1-entry dependencies:** PCD-03, PCD-06, PCD-08, PCD-13, PCD-17, PCD-23, PCD-11 formal acceptance, and the PCD-01 privileged-role option decision.
+- **Dependent Phase 1 implementation/operational gates:** PCD-24, PCD-25 and PCD-26, which must be approved before their affected configurations become effective.
+- **Later Phase 1 assessment:** PCD-22 final migrate / No Migration Required assessment at the end of Phase 1.
+
+No pending item is treated as approved without attributable evidence.
+
+## 12. Non-authorizations
 Preparation/reconciliation of this dossier does not authorize:
 - application implementation;
 - database schema or migrations;
