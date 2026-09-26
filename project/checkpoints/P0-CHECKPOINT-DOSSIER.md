@@ -29,3 +29,15 @@ P0-CHECKPOINT remains the overall Phase 1 entry gate. No Phase 1 implementation 
 
 ## Historical-source preservation
 `Main_Prompt.md`, `PreCoding_Questions_v0.8.md`, and root `Decision_register.md` remain historical/source documents and are not rewritten by this task.
+## P0-TASK-012 checkpoint reassessment â€” 26 September 2026
+
+P0-TASK-012 reviewed GitHub `main` at `5181ff2df9143e57193e69911f5ba33ab1f2cc11` after P0-TASK-011 and searched repository code, issues and pull requests for newly attributable authority acceptance/sign-off, approved laboratory input, or formal checkpoint acceptance.
+
+No new decision evidence was identified. Therefore PCD-03, PCD-06, PCD-08, PCD-13, PCD-17, PCD-23, the PCD-01 optional 12-character privileged-role minimum, PCD-11 formal acceptance, and PCD-24/25/26 remain pending as previously controlled. PCD-22 remains the confirmed selective-migration default with final assessment pending in Phase 1.
+
+### Current checkpoint decision
+
+**OPEN / IN PROGRESS â€” NOT ACCEPTED**
+
+No absence-of-record condition was interpreted as approval. No Phase 1 entry authorization was created.
+

@@ -15,3 +15,7 @@
 | R-011 | Phase 0 checkpoint may be treated as accepted because documentation is complete | Keep checkpoint status explicitly OPEN / NOT ACCEPTED until required authority record exists | OPEN |
 | R-012 | P0-TASK-001 has no dedicated task file in `project/work/` | Retain commit/control-record evidence; optionally backfill a historical task record only through a separately controlled documentation task | OPEN |
 | R-013 | Phase 1 entry could be confused with dependent implementation gates or the later migration assessment | P0-TASK-010 explicitly classifies checkpoint/entry dependencies, affected-scope implementation gates, and the end-of-Phase-1 migration assessment | CLOSED after Phase 0 control-plan clarification |
+## P0-TASK-012 checkpoint reassessment â€” 26 September 2026
+
+P0-TASK-012 rechecked the repository and searchable GitHub acceptance surfaces and found no new decision evidence. R-002, R-003, R-004, R-007, R-008, R-011 and related open dependencies therefore retain their existing treatments and OPEN status. No risk closure was inferred from the absence of a decision record.
+

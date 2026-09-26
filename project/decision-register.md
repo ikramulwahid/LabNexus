@@ -58,3 +58,11 @@ No absence-of-record condition has been interpreted as approval. Historical root
 
 ## Rule
 A later accepted decision may supersede an earlier one only through controlled change. Historical source files are never silently rewritten.
+## P0-TASK-012 checkpoint reassessment â€” 26 September 2026
+
+P0-TASK-012 reassessed the Phase 0 gate against GitHub `main` at `5181ff2df9143e57193e69911f5ba33ab1f2cc11`. No new attributable authority acceptance/sign-off, approved laboratory input, or formal checkpoint acceptance record was identified in repository code, issues, pull requests, or the current control records.
+
+No PCD status was promoted to approved/closed. PCD-03/06/08/13/17/23 remain pending; the PCD-01 optional 12-character privileged-role minimum remains undecided with default 8; PCD-11 remains technical disposition B without formal acceptance; PCD-24/25/26 remain laboratory-input pending; and PCD-22 remains the confirmed selective-migration default with final assessment pending in Phase 1.
+
+No absence-of-record condition has been interpreted as approval.
+

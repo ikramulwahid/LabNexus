@@ -18,13 +18,17 @@
 - P0-TASK-009 authority/checkpoint decision reconciliation is complete.
 - P0-TASK-010 controlled Phase 0 follow-up plan is complete.
 - P0-TASK-011 authority/laboratory decision review is complete; no new attributable decision packet was identified.
+- P0-TASK-012 checkpoint reassessment is complete; no new attributable authority/laboratory decision evidence was identified.
 - No Phase 0 checkpoint is ACCEPTED.
 
 ### Current active work
-P0-TASK-011 — authority/laboratory decision review — complete.
+P0-TASK-012 — checkpoint reassessment — complete.
 
 ### Decision reconciliation position
-No new authority acceptance or laboratory approval/input was identified by P0-TASK-011. PCD-03/06/08/13/17/23 remain pending; the PCD-01 optional 12-character privileged-role minimum remains undecided; PCD-11 remains technical disposition B without formal acceptance; PCD-24/25/26 remain pending; and PCD-22 remains a Phase 1 migration assessment.
+No newly attributable authority acceptance or laboratory approval/input was identified by P0-TASK-012. PCD-03/06/08/13/17/23 remain pending; the PCD-01 optional 12-character privileged-role minimum remains undecided; PCD-11 remains technical disposition B without formal acceptance; PCD-24/25/26 remain pending; and PCD-22 remains a Phase 1 migration assessment.
+
+### Checkpoint position
+**P0-CHECKPOINT remains OPEN / IN PROGRESS — NOT ACCEPTED.** No Phase 1 entry authorization was created.
 
 ### Guardrail
 No application, database, schema, API, UI, migration, calculation, feature, production configuration, UAT or validation work is authorized merely because a Phase 0 control document is complete.

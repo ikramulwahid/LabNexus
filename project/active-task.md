@@ -1,35 +1,44 @@
 # Active Task
 
 ## Task ID
-P0-TASK-011
+P0-TASK-012
 
 ## Title
-Collect and Record the First Available Authority/Laboratory Decision Packet
+Reassess the Phase 0 Checkpoint Following Receipt of Actual Authority/Laboratory Decision Evidence
 
 ## Status
-**COMPLETE — NO NEW AUTHORITY/LABORATORY DECISION PACKET IDENTIFIED**
+**COMPLETE — NO NEW AUTHORITY/LABORATORY DECISION EVIDENCE IDENTIFIED; CHECKPOINT NOT ACCEPTED**
 
 ## Authorization
-Explicit project instruction dated 26 September 2026 authorizing P0-TASK-011.
+Explicit project instruction dated 26 September 2026 authorizing P0-TASK-012.
 
-## Completion evidence
-The current GitHub `main` repository state was reviewed at commit `a78b00a594c7a947eab1c3dff2fec57e3139f951`. The Phase 0 living decision register, open items, risks, checkpoint register, checkpoint dossier, handoff and P0-TASK-010 follow-up plan were reviewed. Search was also performed across repository code, GitHub issues and pull requests for the outstanding authority and laboratory decisions.
+## Source state reviewed
+GitHub `main` at commit `5181ff2df9143e57193e69911f5ba33ab1f2cc11` after P0-TASK-011 closeout.
 
-No new attributable authority acceptance/sign-off or approved laboratory decision/input was identified.
+## Review performed
+The current `project/decision-register.md`, `project/open-items.md`, `project/risks.md`, `project/checkpoints/checkpoint-register.md`, `project/checkpoints/P0-CHECKPOINT-DOSSIER.md`, `project/work/P0-TASK-011.md`, `project/work/P0-TASK-010.md`, `project/active-task.md`, and `project/handoff.md` were reviewed. Repository code, GitHub issues and pull requests were searched for newly supplied attributable authority decisions or approved laboratory inputs.
 
-## Evidence-backed result
-PCD-03, PCD-06, PCD-08, PCD-13, PCD-17, PCD-23, the PCD-01 privileged-role 12-character option, and formal PCD-11 acceptance remain not recorded/pending. PCD-24, PCD-25 and PCD-26 remain laboratory-input pending. PCD-22 remains the confirmed selective-migration default with its final assessment deferred to Phase 1.
+No new attributable authority acceptance/sign-off, approved laboratory input, or formal checkpoint acceptance record was identified.
 
-No pending item was converted into approval by absence of evidence.
+## Reassessment result
+- PCD-03, PCD-06, PCD-08, PCD-13 and PCD-17 remain NOT RECORDED / PENDING.
+- PCD-23 Role-Holder Matrix/staffing decision remains NOT RECORDED / PENDING.
+- PCD-01 privileged-role 12-character option remains NOT RECORDED / PENDING; controlled default remains 8.
+- PCD-11 remains technical disposition B; formal acceptance remains NOT RECORDED / PENDING.
+- PCD-24, PCD-25 and PCD-26 remain laboratory-input NOT RECORDED / PENDING.
+- PCD-22 remains the confirmed selective-migration default; final migration assessment remains a Phase 1 activity.
+- No absence-of-record condition was interpreted as approval.
 
-## Completion state
-**COMPLETE.** The controlled decision status is reconciled to the available evidence. Historical source documents were preserved unchanged. No implementation or validation activity was performed.
-
-## Checkpoint state
+## Checkpoint decision
 **P0-CHECKPOINT remains OPEN / IN PROGRESS — NOT ACCEPTED.**
 
+No outstanding checkpoint dependency was closed by P0-TASK-012. No Phase 1 entry authorization was created.
+
+## Historical-source preservation
+`Main_Prompt.md`, `PreCoding_Questions_v0.8.md`, and root `Decision_register.md` remain unchanged.
+
 ## Non-authorizations
-No application code, database schema, migrations, API, UI, calculations, features, production configuration, UAT, validation execution, or Phase 1 implementation was performed or authorized.
+No application code, database schema, migration, API, UI, calculations, features, production configuration, UAT, validation execution, or Phase 1 implementation was performed or authorized.
 
 ## Next proposed task
-P0-TASK-012 — Reassess the Phase 0 checkpoint after the next actual authority/laboratory decision packet is recorded, or another explicitly authorized Phase 0 control task.
+P0-TASK-013 — Reassess the Phase 0 checkpoint only after a new attributable authority/laboratory decision packet is actually recorded, or another explicitly authorized Phase 0 control task.

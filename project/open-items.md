@@ -27,3 +27,7 @@ PCD-01 privileged-role password length remains the principal security-specific o
 
 ## Domain-model note
 PCD-05 and PCD-14 are confirmed controlled decisions. PCD-03 and PCD-13 remain subject to their stated authority sign-offs; the detailed PCD-13 transition matrix is a later Phase 1–2 deliverable.
+## P0-TASK-012 checkpoint reassessment â€” 26 September 2026
+
+No new attributable authority acceptance, approved laboratory input, or formal checkpoint acceptance record was identified. All outstanding items therefore retain their prior controlled status. No open item was closed by P0-TASK-012.
+
