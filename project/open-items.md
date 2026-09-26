@@ -16,9 +16,9 @@
 | PCD-22 | Final migrate / No Migration Required assessment | Phase 1 migration assessment | No fabricated historical result/TestInstance migration |
 | PCD-11 | Formal acceptance of technical disposition B | Applicable project/technical authority/checkpoint | SQLite baseline remains technically supported but not formally accepted |
 
-## P0-TASK-009 reconciliation status — 26 September 2026
+## P0-TASK-011 decision-packet review — 26 September 2026
 
-No new authority acceptance record was identified for PCD-03, PCD-06, PCD-08, PCD-13, PCD-17 or PCD-23. No decision adopting the optional 12-character privileged-role minimum was identified. PCD-11 remains technical disposition B with formal acceptance not recorded. PCD-24/25/26 laboratory inputs remain not recorded/pending. PCD-22 remains a confirmed selective-migration default with the final migrate / No Migration Required assessment deferred to Phase 1.
+No new attributable authority acceptance or approved laboratory input was identified in the current GitHub `main` state or searchable repository issues/pull requests. All outstanding items therefore retain their prior controlled status.
 
 No absence-of-record condition has been interpreted as approval.
 
@@ -27,15 +27,3 @@ PCD-01 privileged-role password length remains the principal security-specific o
 
 ## Domain-model note
 PCD-05 and PCD-14 are confirmed controlled decisions. PCD-03 and PCD-13 remain subject to their stated authority sign-offs; the detailed PCD-13 transition matrix is a later Phase 1–2 deliverable.
-
-
-## P0-TASK-010 controlled gate classification — 26 September 2026
-
-### P0 / Phase 1-entry dependencies
-Formal P0-CHECKPOINT acceptance is the overall Phase 1 entry gate. The checkpoint cannot be accepted until its required acceptance record exists. PCD-03, PCD-06, PCD-08, PCD-13, PCD-17, PCD-23, PCD-11 formal acceptance, and the PCD-01 privileged-role password option decision are checkpoint/entry dependencies.
-
-### Dependent Phase 1 implementation/operational gates
-PCD-24, PCD-25 and PCD-26 must have the required laboratory/technical inputs approved before their affected test/formula, QC/report, sample-disposal, label or host/storage configuration is made effective. These inputs do not themselves authorize implementation.
-
-### Later Phase 1 assessment
-PCD-22 remains a controlled end-of-Phase-1 migration assessment. The outcome must be either an evidenced migration plan or an explicit **No Migration Required** record where applicable. Historical results and approval chains must not be fabricated.

@@ -36,4 +36,7 @@ Reviewed the Phase 0 control layer after P0-TASK-007; corrected stale P0-TASK-00
 Performed P0-TASK-009 against GitHub `main` at `849cfce`. No new authority acceptance records were identified for PCD-03/06/08/13/17/23 or the PCD-01 12-character option; PCD-11 remains technical disposition B with formal acceptance not recorded; PCD-24/25/26 inputs remain pending; PCD-22 remains confirmed with final assessment deferred to Phase 1. The P0 checkpoint remains OPEN / NOT ACCEPTED.
 
 ### CHG-012 — Define controlled Phase 0 follow-up and gate classification
-Performed P0-TASK-010 against GitHub `main` at `baa4636`. Converted all remaining Phase 0 dependencies into an explicit follow-up register. Formal P0 checkpoint acceptance is the overall Phase 1 entry gate; PCD-03/06/08/13/17/23, PCD-11 formal acceptance and PCD-01 option decision are checkpoint/entry dependencies; PCD-24/25/26 are affected-scope implementation/operational gates; PCD-22 remains the end-of-Phase-1 migration assessment. No implementation or execution was authorized.
+Performed P0-TASK-010 and classified formal checkpoint/Phase 1-entry dependencies, affected-scope implementation/operational gates, and the later Phase 1 migration assessment. No new approval or implementation authorization was created.
+
+### CHG-013 — Collect and reconcile the first authority/laboratory decision packet
+Performed P0-TASK-011 against GitHub `main` at `a78b00a`. No new attributable authority acceptance/sign-off or approved laboratory decision/input was identified. Outstanding statuses remain unchanged; P0-CHECKPOINT remains OPEN / NOT ACCEPTED.

@@ -35,50 +35,26 @@ This is the living project-control index for decisions. Historical source text r
 | PCD-26 | Sample disposal/labels/storage inputs | LAB INPUT NOT RECORDED / PENDING |
 | PCD-27 | Boilerplate PQ dispositions | CONFIRMED |
 
-## Security consolidation
-P0-TASK-005 consolidated SB-AMEND-001 and PCD-01/15/19/20/21 into `project/security.md`. The historical root Decision Register remains unchanged.
+## P0-TASK-011 authority/laboratory decision review — 26 September 2026
 
-## P0-TASK-007 domain-model reconciliation
+The current GitHub `main` state was reviewed at commit `a78b00a594c7a947eab1c3dff2fec57e3139f951`. Recent commit history shows no commit after P0-TASK-010. Repository searches across code, issues and pull requests found no newly recorded authority acceptance/sign-off or laboratory input for the outstanding Phase 0 items.
 
-`project/domain-model.md` is the current controlled baseline for PCD-03/05/13/14.
-
-### Historical/supersession position
-- The root `Decision_register.md` remains the historical PCD reconciliation source.
-- `PreCoding_Questions_v0.8.md` remains historical requirements/Q&A evidence.
-- Older PQ answers superseded by PCD decisions remain historical and are not silently revived.
-- PCD-03 retains its documented supersession of earlier Q384/Q385 wording and the detailed Q715 per-TestInstance scope.
-- PCD-05 retains its documented amendment of earlier Q339/Q367 current-revision approaches.
-- PCD-14 retains its documented clarifications of Q528/Q552/Q564/Q565/Q784/Q1190.
-
-### Current controlled interpretation
-PCD-03 is the authoritative detailed SoD matrix; PCD-05 is the authoritative ResultRevision/ApprovalSnapshot history model; PCD-13 governs execution/rework/retest/repeat/correction semantics and state-model boundaries; PCD-14 governs ReportRevision freeze/staleness and revision-number behavior.
-
-## P0-TASK-009 authority/checkpoint reconciliation — 26 September 2026
-
-The current GitHub `main` state was reviewed together with the Phase 0 checkpoint dossier, living control records, historical decision register, and searchable repository acceptance surfaces. No new authority acceptance record was identified for the outstanding decisions below.
-
-| Ref | Evidence-backed result as of 26 Sep 2026 | Controlled status |
+| Ref | P0-TASK-011 result | Controlled status |
 |---|---|---|
-| PCD-03 | No Quality Authority / Project Owner formal sign-off record identified; existing detailed matrix remains the controlled baseline | NOT RECORDED / PENDING |
-| PCD-06 | No Quality Authority sign-off / Technical concurrence record identified | NOT RECORDED / PENDING |
-| PCD-08 | No Quality Authority + Project Owner acceptance record identified | NOT RECORDED / PENDING |
-| PCD-13 | No Technical Authority sign-off record identified; detailed transition matrix remains later Phase 1–2 work | NOT RECORDED / PENDING |
-| PCD-17 | No Technical Authority competence-model sign-off record identified | NOT RECORDED / PENDING |
-| PCD-23 | No named Role-Holder Matrix / staffing-feasibility acceptance record identified | NOT RECORDED / PENDING |
-| PCD-01 privileged-role option | Existing controlled risk acceptance supports the 8-character baseline; no decision adopting the optional 12-character minimum was identified | 12-CHARACTER OPTION NOT RECORDED / PENDING; DEFAULT 8 |
-| PCD-11 | P0-TASK-004 technical disposition B is recorded; no separate formal acceptance record identified | TECHNICAL B; FORMAL ACCEPTANCE NOT RECORDED / PENDING |
-| PCD-24 | No approved Launch Test Catalogue / golden-case laboratory input identified | LAB INPUT NOT RECORDED / PENDING |
-| PCD-25 | No approved QC/scope/report-format/watermark laboratory input identified | LAB INPUT NOT RECORDED / PENDING |
-| PCD-26 | No approved retained-sample/disposal/label/storage input identified | LAB INPUT NOT RECORDED / PENDING |
-| PCD-22 | Selective migration remains the confirmed default; final migrate / No Migration Required assessment remains a Phase 1 assessment | CONFIRMED; ASSESSMENT PENDING (PHASE 1) |
+| PCD-03 | No new Quality Authority / Project Owner sign-off identified | NOT RECORDED / PENDING |
+| PCD-06 | No new Quality Authority approval / Technical concurrence identified | NOT RECORDED / PENDING |
+| PCD-08 | No new Quality Authority + Project Owner approval identified | NOT RECORDED / PENDING |
+| PCD-13 | No new Technical Authority sign-off identified | NOT RECORDED / PENDING |
+| PCD-17 | No new Technical Authority sign-off identified | NOT RECORDED / PENDING |
+| PCD-23 | No named Role-Holder Matrix/staffing decision identified | NOT RECORDED / PENDING |
+| PCD-01 option | No decision adopting the optional 12-character privileged-role minimum identified | NOT RECORDED / PENDING; DEFAULT 8 |
+| PCD-11 | No formal acceptance record for technical disposition B identified | TECHNICAL B; FORMAL ACCEPTANCE NOT RECORDED / PENDING |
+| PCD-24 | No approved Launch Test Catalogue/golden cases identified | LAB INPUT NOT RECORDED / PENDING |
+| PCD-25 | No approved QC/scope/report-format/watermark inputs identified | LAB INPUT NOT RECORDED / PENDING |
+| PCD-26 | No approved disposal/label/storage inputs identified | LAB INPUT NOT RECORDED / PENDING |
+| PCD-22 | No new migration assessment identified | CONFIRMED DEFAULT; ASSESSMENT PENDING (PHASE 1) |
 
-No absence-of-record condition has been interpreted as approval. Historical sources remain unchanged.
-
-## P0-TASK-010 controlled follow-up plan — 26 September 2026
-
-The remaining Phase 0 dependencies are now classified by gate. Formal P0 checkpoint acceptance is the overall Phase 1 entry gate. PCD-03/06/08/13/17/23, PCD-11 formal acceptance, and the PCD-01 privileged-role option decision are checkpoint/entry dependencies. PCD-24/25/26 are dependent implementation/operational input gates. PCD-22 final migration assessment remains an end-of-Phase-1 activity.
-
-No pending item is treated as approved without attributable evidence. Named individuals are not invented where only an authority role is currently known.
+No absence-of-record condition has been interpreted as approval. Historical root sources remain unchanged.
 
 ## Rule
 A later accepted decision may supersede an earlier one only through controlled change. Historical source files are never silently rewritten.

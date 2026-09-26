@@ -1,28 +1,35 @@
 # Active Task
 
 ## Task ID
-P0-TASK-010
+P0-TASK-011
 
 ## Title
-Define the Controlled Phase 0 Follow-up Plan for Outstanding Dependencies
+Collect and Record the First Available Authority/Laboratory Decision Packet
 
 ## Status
-**COMPLETE — CONTROLLED FOLLOW-UP PLAN DEFINED; CHECKPOINT NOT ACCEPTED**
+**COMPLETE — NO NEW AUTHORITY/LABORATORY DECISION PACKET IDENTIFIED**
 
 ## Authorization
-Explicit project instruction dated 26 September 2026 authorizing P0-TASK-010.
+Explicit project instruction dated 26 September 2026 authorizing P0-TASK-011.
 
 ## Completion evidence
-The current GitHub `main` state after P0-TASK-009 was reviewed. Remaining authority, staffing, laboratory-input, PCD-11 formal acceptance and checkpoint dependencies were converted into a controlled follow-up register. Each item is classified as a Phase 1-entry/checkpoint gate, a dependent implementation/operational gate, or a later Phase 1 assessment.
+The current GitHub `main` repository state was reviewed at commit `a78b00a594c7a947eab1c3dff2fec57e3139f951`. The Phase 0 living decision register, open items, risks, checkpoint register, checkpoint dossier, handoff and P0-TASK-010 follow-up plan were reviewed. Search was also performed across repository code, GitHub issues and pull requests for the outstanding authority and laboratory decisions.
+
+No new attributable authority acceptance/sign-off or approved laboratory decision/input was identified.
+
+## Evidence-backed result
+PCD-03, PCD-06, PCD-08, PCD-13, PCD-17, PCD-23, the PCD-01 privileged-role 12-character option, and formal PCD-11 acceptance remain not recorded/pending. PCD-24, PCD-25 and PCD-26 remain laboratory-input pending. PCD-22 remains the confirmed selective-migration default with its final assessment deferred to Phase 1.
+
+No pending item was converted into approval by absence of evidence.
 
 ## Completion state
-**COMPLETE.** No authority decision was invented, no historical source was changed, and no implementation or execution work was performed.
+**COMPLETE.** The controlled decision status is reconciled to the available evidence. Historical source documents were preserved unchanged. No implementation or validation activity was performed.
 
-## Phase 1 entry determination
-Formal **P0-CHECKPOINT acceptance is the overall Phase 1 entry gate**. The checkpoint remains OPEN / IN PROGRESS — NOT ACCEPTED. PCD-03/06/08/13/17/23, PCD-11 formal acceptance and the PCD-01 privileged-role option decision are checkpoint/entry dependencies. PCD-24/25/26 are affected-scope implementation/operational gates. PCD-22 final migration assessment is scheduled at the end of Phase 1.
+## Checkpoint state
+**P0-CHECKPOINT remains OPEN / IN PROGRESS — NOT ACCEPTED.**
 
 ## Non-authorizations
-No application code, database schema, migrations, API, UI, calculations, features, production configuration, UAT, validation execution or Phase 1 implementation was performed or authorized.
+No application code, database schema, migrations, API, UI, calculations, features, production configuration, UAT, validation execution, or Phase 1 implementation was performed or authorized.
 
 ## Next proposed task
-P0-TASK-011 — Collect and record the first available authority/laboratory decision packet against the controlled follow-up register, or another explicitly authorized Phase 0 control task.
+P0-TASK-012 — Reassess the Phase 0 checkpoint after the next actual authority/laboratory decision packet is recorded, or another explicitly authorized Phase 0 control task.
